@@ -1,0 +1,2 @@
+less countries.txt
+/Zambia
