@@ -1,0 +1,3 @@
+rmdir backup
+#percebe-se que o comando não funciona
+rm -rf
