@@ -1,0 +1,5 @@
+touch phrases2.txt
+echo 'Frase-1'
+echo 'Frase-2'
+echo 'Frase-3'
+echo 'Frase-n'

@@ -1,0 +1,1 @@
+cat skills2.txt | wc -l
