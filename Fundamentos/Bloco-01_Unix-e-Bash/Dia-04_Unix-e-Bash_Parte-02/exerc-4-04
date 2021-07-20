@@ -1,0 +1,3 @@
+sudo apt-get install sl
+sl
+sl -f

@@ -1,0 +1,3 @@
+sudo apt-get install cowsay
+cowsay show
+tail fortune.txt | cowsay
