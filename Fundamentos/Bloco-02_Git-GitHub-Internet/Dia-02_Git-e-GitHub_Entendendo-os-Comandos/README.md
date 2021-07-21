@@ -1,3 +1,5 @@
+No dia de hoje, aprendemos alguns comandos para usar no Git e GitHub, tendo que fazer tambem uma clonagem de repertorio entre outros.
+
 ### Agora a prática
 
 ⚠️  **Para fazer os exercícios a seguir, você deve utilizar o projeto com o texto no arquivo  `.txt`  , localizado dentro do diretório do dia anterior, crie uma cópia para usar no dia de hoje.**
