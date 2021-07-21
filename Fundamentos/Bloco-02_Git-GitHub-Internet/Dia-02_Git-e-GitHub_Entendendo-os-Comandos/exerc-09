@@ -1,0 +1,10 @@
+cat >> trybe-skills.txt
+#Enter
+
+- JavaScript
+#Enter
+#Ctrl+c
+
+git add .
+git commit -m "Adicionei JS arquivo trube-skills.txt"
+git push -u origin trybe-skills-update

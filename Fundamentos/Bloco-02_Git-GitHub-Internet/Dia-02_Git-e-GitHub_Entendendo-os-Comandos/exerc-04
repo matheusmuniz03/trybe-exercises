@@ -1,0 +1,12 @@
+cat >> trybe-skills.txt
+#Enter
+
+- HTML
+#Enter
+- CSS
+#Enter
+#Ctrl+c
+
+git add .
+git commit -m "Adicionei HTML-CSS arquivo trybe-skills.txt"
+git push -u origin trybe-skills-changes
