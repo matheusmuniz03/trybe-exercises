@@ -1,0 +1,29 @@
+h1{
+    font-family: sans-serif;
+}
+p{
+    font-weight: 600;
+    font-size:3em;
+    background-color: rgb(0, 0, 0);
+    color: white ;
+}
+body{
+    font-size: 16px;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+    
+    background-color: rgb(0, 0, 0);
+}
+#Amarelo{
+    background-color: yellow;
+}
+#Vermelho{
+    background-color: red;
+}
+#Marrom{
+    background-color: rgb(250, 107, 12);
+}
+h1{
+    color: white;
+}
