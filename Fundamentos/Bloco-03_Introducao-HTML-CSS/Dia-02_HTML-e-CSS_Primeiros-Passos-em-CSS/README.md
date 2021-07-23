@@ -1,3 +1,6 @@
+### Dia 02 - HTML & CSS: Primeiros Passos em CSS
+
+**RESUMO:** No dia de hoje, aprendemos na prática como utilizar CSS para estilizar páginas Web. Agora sou capaz de criar regras de estilos para tags HTML utilizando o CSS; utilizar seletores de tag, id e class para aplicar regras de CSS; alterar características da fonte e das cores de páginas web; utilizar o CSS inline e externo. No final do dia, utilizei os conceitos aprendidos na aula do dia de hoje e atualizei meu Portfólio Web.
 
 
 ### Estilizando seu Portfólio Web!
