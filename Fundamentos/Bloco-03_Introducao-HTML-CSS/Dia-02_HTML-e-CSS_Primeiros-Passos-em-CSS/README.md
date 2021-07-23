@@ -1,3 +1,5 @@
+
+
 ### Estilizando seu Portfólio Web!
 
 Antes de começar, você deve seguir as instruções abaixo e fazer o setup para o exercício de hoje:
