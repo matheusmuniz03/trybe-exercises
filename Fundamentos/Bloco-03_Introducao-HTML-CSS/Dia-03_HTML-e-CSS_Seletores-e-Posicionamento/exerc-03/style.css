@@ -1,0 +1,14 @@
+h1, p{
+    text-align: center;
+}
+
+li:hover{
+    background-color: blue;
+}
+li:active{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+ul,ol {
+    list-style: none;
+}
