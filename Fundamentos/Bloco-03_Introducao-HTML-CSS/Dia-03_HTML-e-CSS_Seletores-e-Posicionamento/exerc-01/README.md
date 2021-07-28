@@ -10,7 +10,6 @@ Você provavelmente não conhece algumas das propriedades utilizadas nesse códi
 
 `index.html`
 
-Copiar
 
 ```html
 <!DOCTYPE html>
@@ -32,7 +31,6 @@ Copiar
 
 `style.css`
 
-Copiar
 
 ```css
 .caixa {
