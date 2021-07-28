@@ -1,6 +1,6 @@
 ## Dia 03 - Internet: Entendendo como ela Funciona
 
-Resumo: no dia de hoje, aprendemos um pouco sobre como a Internet funciona. Descobrimos como a rede da internet é estruturada e suas peças (cliente, servidor, endereço IP, TCP/IP, ISP, DNS. Port Number, Host e URL); além disso vimos tambem como funciona o modelo cliente-servidor e a estrutura de uma aplicação web. No final do dia, nos separamos em grupos de 7 pessoas e fizemos a "Dinâmica com Post-its"
+*Resumo*: no dia de hoje, aprendemos um pouco sobre como a Internet funciona. Descobrimos como a rede da internet é estruturada e suas peças (cliente, servidor, endereço IP, TCP/IP, ISP, DNS. Port Number, Host e URL); além disso vimos tambem como funciona o modelo cliente-servidor e a estrutura de uma aplicação web. No final do dia, nos separamos em grupos de 7 pessoas e fizemos a "Dinâmica com Post-its"
 
 ## Dinâmica com Post-its
 
