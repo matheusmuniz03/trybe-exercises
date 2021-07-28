@@ -4,8 +4,6 @@ Que tal praticarmos como manipular o posicionamento de elementos? Utilize o HTML
 
 `index.html`
 
-Copiar
-
 ```html
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -29,7 +27,6 @@ Copiar
 
 `style.css`
 
-Copiar
 
 ```css
 .super-mario {
