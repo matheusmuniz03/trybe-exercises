@@ -1,202 +1,202 @@
-// EXERCICIO 1: 
-// let a = 20;
-// let b = 10;
-// let operação = "+";
+ //EXERCICIO 1: 
+ let a = 20;
+ let b = 10;
+ let operação = "+";
 
-// switch(operação){
-//     case "+":
-//         console.log(a+b);
-//         break;
+ switch(operação){
+     case "+":
+         console.log(a+b);
+         break;
 
-//     case "-":
-//         console.log(a-b);
-//         break;
+     case "-":
+         console.log(a-b);
+         break;
 
-//     case "*":
-//         console.log(a*b);
-//         break;
+     case "*":
+         console.log(a*b);
+         break;
 
-//     case "/":
-//         console.log(a/b);
-//         break;
+     case "/":
+         console.log(a/b);
+         break;
 
-//     case "%":
-//         console.log(a%b);
-//         break;
+     case "%":
+         console.log(a%b);
+         break;
 
-//     default:
-//         console.log("Operação Inválida");   
-// }
-
-
-// EXERCICIO 2:
-// let numero1 = 100;
-// let numero2 = 500;
-
-// if (numero1 > numero2){
-//     console.log(numero1);
-// }
-// else{
-//     console.log(numero2);
-// }
+     default:
+         console.log("Operação Inválida");   
+ }
 
 
+ //EXERCICIO 2:
+ let numero1 = 100;
+ let numero2 = 500;
 
-// EXERCICIO 3:
-// let numero1 = 100;
-// let numero2 = 50;
-// let numero3 = 30;
+ if (numero1 > numero2){
+     console.log(numero1);
+ }
+ else{
+     console.log(numero2);
+ }
 
-// if (numero1 > numero2 && numero1 > numero3){
-//     console.log(numero1);
-// }
-// else if (numero2 > numero1 && numero2 > numero3){
-//     console.log(numero2);
-// }
-// else{
-//     console.log(numero3);
-// }
+
+
+ //EXERCICIO 3:
+ let numero1 = 100;
+ let numero2 = 50;
+ let numero3 = 30;
+
+ if (numero1 > numero2 && numero1 > numero3){
+     console.log(numero1);
+ }
+ else if (numero2 > numero1 && numero2 > numero3){
+     console.log(numero2);
+ }
+ else{
+     console.log(numero3);
+ }
 
 
 
 //EXERCICIO 4:
-// let numero = -10;
+ let numero = -10;
 
-// if (numero > 0){
-//     console.log("postive");
-// }
-// else if (numero < 0){
-//     console.log("negative");
-// }
-// else{
-//     console.log("zero");
-// }
+ if (numero > 0){
+     console.log("postive");
+ }
+ else if (numero < 0){
+     console.log("negative");
+ }
+ else{
+     console.log("zero");
+ }
 
 
 
 //EXERCICIO 5:
-// let angulo1 = 29;
-// let angulo2 = 31;
-// let angulo3 = 120;
-// let booleano;
+ let angulo1 = 29;
+ let angulo2 = 31;
+ let angulo3 = 120;
+ let booleano;
 
-// if (angulo1 > 0 && angulo2 > 0 && angulo3 > 0){
-//     if (angulo1 + angulo2 + angulo3 == 180){
-//         booleano = true;
-//     }
-//     else{
-//         booleano = false;
-//     }
-//     console.log(booleano);
-// }
-// else{
-//     console.log("Ângulo Invalido");
-// }
+ if (angulo1 > 0 && angulo2 > 0 && angulo3 > 0){
+     if (angulo1 + angulo2 + angulo3 == 180){
+         booleano = true;
+     }
+     else{
+         booleano = false;
+     }
+     console.log(booleano);
+ }
+ else{
+     console.log("Ângulo Invalido");
+ }
 
 
 
 //EXERCICIO 6:
-// let peçaXadrez = "RAINHA";
+ let peçaXadrez = "RAINHA";
 
-// switch(peçaXadrez.toLowerCase()){
-//     case "rei":
-//         console.log("Rei --> pode andar uma casa em todas as direções");
-//         break;
-//     case "peão":
-//         console.log("Peão --> só pode andar para frente");
-//         break;
-//     case "cavalo":
-//         console.log("Cavalo --> ele anda em formato de 'L'");
-//         break;
-//     case "rainha":
-//         console.log("Rainha --> pode andar em qualquer direção");
-//         break;
-//     case "torre":
-//         console.log("Torre --> anda na horizontal e na vertical");
-//         break;
-//     case "bispo":
-//         console.log("Bispo --> anda apenas nas diagonais");
-//         break;
-//     default:
-//         console.log("Peça Invalida");
-// }
+ switch(peçaXadrez.toLowerCase()){
+     case "rei":
+         console.log("Rei --> pode andar uma casa em todas as direções");
+         break;
+     case "peão":
+         console.log("Peão --> só pode andar para frente");
+         break;
+     case "cavalo":
+         console.log("Cavalo --> ele anda em formato de 'L'");
+         break;
+     case "rainha":
+         console.log("Rainha --> pode andar em qualquer direção");
+         break;
+     case "torre":
+         console.log("Torre --> anda na horizontal e na vertical");
+         break;
+     case "bispo":
+         console.log("Bispo --> anda apenas nas diagonais");
+         break;
+     default:
+         console.log("Peça Invalida");
+ }
 
 
 
 //EXERCICIO 7:
-// let nota = 93;
+ let nota = 93;
 
-// if (nota > 100){
-//     console.log("Erro, nota inválida.");
-// }
-// else if (nota >= 90){
-//     console.log("Nota A");
-// }
-// else if (nota >= 80){
-//     console.log("Nota B");
-// }
-// else if (nota >= 70){
-//     console.log("Nota C");
-// }
-// else if (nota >= 60){
-//     console.log("Nota D");
-// }
-// else if (nota >= 50){
-//     console.log("Nota E");
-// }
-// else if (nota < 50 && nota >= 0){
-//     console.log("Nota F");
-// }
-// else{
-//     console.log("Erro, nota inválida.");
-// }
+ if (nota > 100){
+     console.log("Erro, nota inválida.");
+ }
+ else if (nota >= 90){
+     console.log("Nota A");
+ }
+ else if (nota >= 80){
+     console.log("Nota B");
+ }
+ else if (nota >= 70){
+     console.log("Nota C");
+ }
+ else if (nota >= 60){
+     console.log("Nota D");
+ }
+ else if (nota >= 50){
+     console.log("Nota E");
+ }
+ else if (nota < 50 && nota >= 0){
+     console.log("Nota F");
+ }
+ else{
+     console.log("Erro, nota inválida.");
+ }
 
 
 
 //EXERCICIO 8:
-// let numero1 = 5;
-// let numero2 = 7;
-// let numero3 = 9;
-// let booleano;
+ let numero1 = 5;
+ let numero2 = 7;
+ let numero3 = 9;
+ let booleano;
 
-// if(numero1%2 == 0 || numero2%2 == 0 || numero3%2 == 0){
-//     booleano = true;
-// }
-// else{
-//     booleano = false;
-// }
-// console.log(booleano);
+ if(numero1%2 == 0 || numero2%2 == 0 || numero3%2 == 0){
+     booleano = true;
+ }
+ else{
+     booleano = false;
+ }
+ console.log(booleano);
 
 
 
 //EXERCICIO 9:
-// let numero1 = 4;
-// let numero2 = 6;
-// let numero3 = 7;
-// let booleano;
+ let numero1 = 4;
+ let numero2 = 6;
+ let numero3 = 7;
+ let booleano;
 
-// if(numero1%2 !== 0 || numero2%2 !== 0 || numero3%2 !== 0){
-//     booleano = true;
-// }
-// else{
-//     booleano = false;
-// }
-// console.log(booleano);
+ if(numero1%2 !== 0 || numero2%2 !== 0 || numero3%2 !== 0){
+     booleano = true;
+ }
+ else{
+     booleano = false;
+ }
+ console.log(booleano);
 
 
 
 //EXERCICIO 10:
-// let custoProdução = 100;
-// let valorVenda = 125;
+ let custoProdução = 100;
+ let valorVenda = 125;
 
-// if(custoProdução >= 0 && valorVenda >= 0){
-//     let custoTotalProdução = custoProdução * 1.2;
-//     let lucroTotal = (valorVenda - custoTotalProdução) * 1000;
-//     console.log(lucroTotal);
-// }
-// else{
-//     console.log("Erro, os valores não podem ser Negativos!");
-// }
+ if(custoProdução >= 0 && valorVenda >= 0){
+     let custoTotalProdução = custoProdução * 1.2;
+     let lucroTotal = (valorVenda - custoTotalProdução) * 1000;
+     console.log(lucroTotal);
+ }
+ else{
+     console.log("Erro, os valores não podem ser Negativos!");
+ }
 
 
 
