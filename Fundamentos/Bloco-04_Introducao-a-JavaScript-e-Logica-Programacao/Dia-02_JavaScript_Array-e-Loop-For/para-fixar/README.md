@@ -30,3 +30,14 @@ let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 
 console.log(menu);
 ```
+
+### Para Fixar 02:
+#### Exercício 1
+
+-   Utilize o  `for`  para imprimir os elementos da lista  `groceryList`  com o  `console.log()`  :
+
+```javascript
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+```
+
+----------
