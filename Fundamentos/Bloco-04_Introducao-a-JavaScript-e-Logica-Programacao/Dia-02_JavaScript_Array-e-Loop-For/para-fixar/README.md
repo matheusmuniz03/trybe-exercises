@@ -31,6 +31,7 @@ let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 console.log(menu);
 ```
 
+
 ### Para Fixar 02:
 #### Exercício 1
 
@@ -41,3 +42,13 @@ let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 ```
 
 ----------
+
+### Para Fixar 03:
+#### Exercício 1
+
+-   Utilize o  `for/of`  para imprimir os elementos da lista  `names`  com o  `console.log()`  :
+
+
+```javascript
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+```
