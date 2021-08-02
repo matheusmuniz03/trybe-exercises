@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(253, 251, 251);
+}
+
+header{
+    position: fixed;
+    top: 0%;
+}
+
+#minha_foto{
+    width: 300px;
+}
+
+table{
+    border: 1px solid;
+    width: 60%;
+    margin-left: 17%;
+}
+
+th{
+    border: 1px solid;
+    background-color: rgb(185, 182, 182);
+    font: 600;
+}
+
+td{
+    border: 1px solid;
+}
+
+.artigo{
+    margin: 1%;
+    border: 2px solid;
+    padding: 1%;
+}
+
+.lado-esquerdo{
+    width: 50%;
+    display: inline-block;
+}
+
+.lado-direito{
+    display: inline-block;
+    width: 40%;
+    border: 2px solid;
+    padding: 1%;
+}
