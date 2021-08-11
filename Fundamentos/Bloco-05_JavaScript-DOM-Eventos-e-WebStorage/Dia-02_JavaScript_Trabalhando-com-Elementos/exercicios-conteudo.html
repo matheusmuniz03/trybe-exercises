@@ -1,0 +1,40 @@
+<main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+
+  <script>
+      //EXERCICIO 01:
+      let elementoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta");
+
+      //EXERCICIO 02:
+      let pai = elementoOndeVoceEsta.parentElement;
+      pai.style.color = "red";
+
+      //EXERCICIO 03:
+      let primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+      primeiroFilhoDoFilho.innerTest = "Primeiro Filho do Filho";
+
+      //EXERCICIO 04:
+      let primeiroFilho = pai.firstElementChild;
+
+      //EXERCICIO 05:
+      let primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
+
+      //EXERCICIO 06:
+      let atencao = elementoOndeVoceEsta.nextSibling;
+
+      //EXERCICIO 07:
+      let terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+
+      //EXERCICIO 08:
+      let terceiroFilho2 = pai.lastElementChild.previousElementSibling;
+  </script>
