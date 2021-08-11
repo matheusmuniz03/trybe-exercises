@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+<main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+
+  <script>
+    //EXERCICIO 01:
+    let paiDoPai = document.querySelector("#paiDoPai");
+    for (let index = 0; index < paiDoPai.childNodes.length; index += 1) {
+      let auxiliarFilhos = paiDoPai.childNodes[index];
+      if (auxiliarFilhos !== "pai" || auxiliarFilhos !== "elementoOndeVoceEsta" || auxiliarFilhos !== "primeiroFilhoDoFilho") {
+        auxiliarFilhos.remove();
+      }
+    }
+  </script>
+  </body>
