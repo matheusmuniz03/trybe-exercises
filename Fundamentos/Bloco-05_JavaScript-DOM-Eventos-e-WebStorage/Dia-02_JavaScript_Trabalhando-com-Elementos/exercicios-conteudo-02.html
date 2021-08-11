@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+<main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+
+  <script>
+    //EXERCICIO 01:
+    let pai = document.querySelector("#pai");
+    let irmaoOndeVoceEsta = document.createElement("section");
+    pai.appendChild(irmaoOndeVoceEsta);
+
+    //EXERCICIO 02:
+    let elementoOndeVoceEsta = document.querySelector("#elementoOndeVoceEsta");
+    let filhoOndeVoceEsta = document.createElement("section");
+    elementoOndeVoceEsta.appendChild(filhoOndeVoceEsta);
+
+    //EXERCICIO 03:
+    let primeiroFilhoDoFilho = document.querySelector("#primeiroFilhoDoFilho");
+    let primeiroFilhoDoFilhoDoFilho = document.createElement("section");
+    primeiroFilhoDoFilho.id = "primeiroFilhoDoFilhoDoFilho"
+    primeiroFilhoDoFilho.appendChild(primeiroFilhoDoFilhoDoFilho);
+
+    //EXERCICIO 04:
+    let primeiroFilhoDoFilhoDoFilho = document.querySelector("#primeiroFilhoDoFilhoDoFilho");
+    let terceiroFilho = primeiroFilhoDoFilhoDoFilho.nextElementSibling;
+  </script>
+  </body>
