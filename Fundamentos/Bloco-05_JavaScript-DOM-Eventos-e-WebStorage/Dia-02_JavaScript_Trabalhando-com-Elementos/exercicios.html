@@ -74,9 +74,65 @@
       main.appendChild(section);
 
       //EXERCICIO 04:
+      let paragrafro = document.createElement("p");
+      paragrafro.innerText = "Testando o Paragrafro";
+      section.appendChild(paragrafro);
 
+      //EXERCICIO 05:
+      let sectionLeftContent = document.createElement("section");
+      sectionLeftContent.className = "left-content";
+      section.appendChild(sectionLeftContent);
 
+      //EXERCICIO 06:
+      let sectionRightContent = document.createElement("section");
+      sectionRightContent.className = "right-content";
+      section.appendChild(sectionRightContent);
 
+      //EXERCICIO 07:
+      let imagem = document.createElement("img");
+      imagem.className = "small-image";
+      imagem.src = "https://picsum.photos/200";
+      sectionLeftContent.appendChild(imagem);
+
+      //EXERCICIO 08:
+      let listaNaoOrdenada = document.createElement("ul");
+      sectionRightContent.appendChild(listaNaoOrdenada);
+      let arrayNumerosExtenso = ["Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez"];
+      for (let index in arrayNumerosExtenso) {
+        let itemListaNaoOrdenada = document.createElement("li");
+        itemListaNaoOrdenada.innerText = arrayNumerosExtenso[index];
+        listaNaoOrdenada.appendChild(itemListaNaoOrdenada);
+      }
+
+      //EXERCICIO 09:
+      for (let indexAux = 0; indexAux < 3; indexAux += 1) {
+        let tagH3 = document.createElement("h3");
+        tagH3.innerText = "TESTANDO " + (indexAux + 1);
+        main.appendChild(tagH3);
+      }
+
+      //SEGUNDA PARTE DOS EXERCICIOS:
+      //EXERCICIO 01:
+      tagH1.className = "title";
+
+      //EXERCICIO 02:
+      let elementosH3 = document.getElementsByTagName("h3");
+      for (let i = 0; i < 3; i += 1) {
+        elementosH3[i].className = "description";
+      }
+
+      //EXERCICIO 03:
+      section.removeChild(sectionLeftContent);
+
+      //EXERCICIO 04:
+      sectionRightContent.style.marginRight = "auto";
+
+      //EXERCICIO 05:
+      section.style.backgroundColor = "green";
+
+      //EXERCICIO 06:
+      listaNaoOrdenada.lastChild.remove();
+      listaNaoOrdenada.lastChild.remove();
 
 
     </script>
