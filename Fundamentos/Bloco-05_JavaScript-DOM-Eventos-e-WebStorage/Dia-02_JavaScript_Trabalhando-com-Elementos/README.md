@@ -99,3 +99,43 @@ Agora que você criou muita coisa, vamos fazer algumas alterações e remoções
 6.  Remova os dois últimos elementos (  `nove`  e  `dez`  ) da lista criada no passo 8.
 
 ----------
+
+### Parte 01:
+É importante dizer que, à primeira vista, as propriedades nextSibling e nextElementSibling parecem fazer a mesma coisa, mas uma pega o próximo nó do DOM , enquanto a outra pega o próximo elemento, e nem sempre o próximo nó é um elemento, como veremos abaixo.
+Entendeu? Então vamos praticar! Adicione o código abaixo a uma página HTML e adicione uma tag script . Você deverá fazer tudo a seguir usando somente JavaScript .
+Copiar
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main>
+Acesse o elemento elementoOndeVoceEsta .
+Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+Acesse o primeiroFilho a partir de pai .
+Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
+Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
+Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
+Agora acesse o terceiroFilho a partir de pai .
+
+
+### Parte 02:
+E a prática? Aqui!
+
+1.  Crie um irmão para  `elementoOndeVoceEsta`  .
+2.  Crie um filho para  `elementoOndeVoceEsta`  .
+3.  Crie um filho para  `primeiroFilhoDoFilho`  .
+4.  A partir desse filho criado, acesse  `terceiroFilho`  .
+
+
+### Parte 03:
+Para praticar:
+
+-   Remova todos os elementos filhos de  `paiDoPai`  exceto  `pai`  ,  `elementoOndeVoceEsta`  e  `primeiroFilhoDoFilho`  .
