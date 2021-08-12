@@ -2,7 +2,7 @@
 
 [Preparamos estes exercícios](https://be-trybe.typeform.com/to/Rib1Qkah?typeform-medium=embed-snippet) para você fixar seus conhecimentos sobre  **JavaScript - Trabalhando com Elementos.** Eles já contam com feedback na hora e são rapidinhos! Vamos lá?
 
-#### Aprofunde seu conhecimento
+#### Aprofunde seu conhecimento - Exercicios
 
 Antes de começar, crie um arquivo  _HTML_ na pasta  `exercises/5_2`  e copie o código abaixo:
 
