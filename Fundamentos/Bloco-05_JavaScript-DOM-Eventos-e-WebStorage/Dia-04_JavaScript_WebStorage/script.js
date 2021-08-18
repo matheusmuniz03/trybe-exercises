@@ -37,6 +37,4 @@ button.addEventListener('click', addPhraseToLocalStorage);
 
 window.onload = function() {
   initialRenderization();
-}; 
-
-
+};
