@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox - Flex Flow</title>
+    <title>Flexbox - Justify Content</title>
     <style>
       .box {
         color: #9069EF;
@@ -13,17 +13,17 @@
         height: 60px;
         margin: 10px 5px;
         text-align: center;
-        width: 30%;
+        width: 20%;
       }
 
       .box-container {
         background-color: #0fa36b;
-        border: 2px solid black;
         display: flex;
+        border: 2px solid black;
         /* ADICIONE AQUI SEUS TESTES */
-        flex-direction: column;
-        flex-wrap: nowrap;
-        flex-flow: row wrap;
+        /* 1 - Utilizando o código abaixo, teste as possibilidades ( center , flex-start , flex-end , space-around e space-between ) para a propriedade justify-content . */
+        justify-content: space-evenly;
+        
       }
     </style>
 
@@ -33,9 +33,6 @@
       <div class="box">1</div>
       <div class="box">2</div>
       <div class="box">3</div>
-      <div class="box">4</div>
-      <div class="box">5</div>
-      <div class="box">6</div>
     </div>
   </body>
 </html>
