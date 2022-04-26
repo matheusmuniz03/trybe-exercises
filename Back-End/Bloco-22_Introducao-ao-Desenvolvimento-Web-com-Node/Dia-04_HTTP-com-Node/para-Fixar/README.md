@@ -31,3 +31,12 @@ Entendemos como utilizar parâmetro de rota, mas imagine o cenário em que você
 2.  Implemente uma rota  `/drinks/search`  que permita pesquisar pelo atributo  `name`  usando query string.
 
 Nosso próximo passo é entender como conseguir receber informações uma forma segura quando precisamos persistir informações, ou seja, quando precisarmos salvar dados do lado do back-end. Não será usado query string e sim o  `body`  da requisição.
+
+#### Para Fixar
+
+1.  Crie uma rota  `POST /drinks`  que permita adicionar novas bebidas através da nossa API.
+2.  Modifique o código acima da rota  `POST /recipes`  para que receba e salve a receita com o atributo  `waitTime`  .
+
+Com isso, já temos metade de um CRUD implementado. Já conseguimos Criar (Create) e Ler (Read) dados através da nossa API, por mais que seja de uma forma mais simples, lendo e salvando em uma array, isso já é o suficiente para termos uma primeira noção de como funciona algumas coisas do Express e para que serve alguns verbos HTTP, além de revisar algumas funções que aprendemos lá no bloco sobre HOFs.
+
+Para finalizar o dia vamos entender como Atualizar (Update) e Remover(Delete) dados através da nossa API, além de lidar com rotas não mapeadas.

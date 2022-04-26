@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+
 const ROUTE = '/drinks';
 const PORT = 3000;
 
@@ -39,5 +42,12 @@ app.get(`${ROUTE}/:id`, (req, res) => {
     
     res.status(200).send(drink);
 })
+
+app.post(ROUTE, (req, res) => {
+    const { name } = req.body;
+    drinks.push(name);
+
+    res.send(`Receita ${name} adicionada com sucesso!`);
+});
 
 app.listen(PORT, console.log('APP rodando na porta 3000'));
